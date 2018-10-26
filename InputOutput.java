@@ -19,6 +19,9 @@ public abstract class InputOutput
 		System.out.println("hi");
 		return;
 	}
+	static String inputString (String prompt) {
+		return input(prompt);
+	}
 	
 	static char inputChar(String prompt) {
         char result = (char) 0;
